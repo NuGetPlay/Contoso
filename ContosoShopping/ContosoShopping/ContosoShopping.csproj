@@ -11,6 +11,8 @@
     
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     
+    <Version>1.0.1</Version>
+    
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.4'">
