@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.4;net452</TargetFrameworks>
+    
+    <PackageId>Contoso.Shopping</PackageId>
+    <Authors>Contoso Shopping Team</Authors>
+    <Company>Contoso</Company>
+    <Product>Contoso Shopping APIs</Product>
+    <Description>Contoso APIs</Description>
+    
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.4'">
+    <PackageReference Include="Contoso.Base">
+      <Version>2.0.5</Version>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net452'">
+    <PackageReference Include="Contoso.Base">
+      <Version>1.0.5</Version>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
