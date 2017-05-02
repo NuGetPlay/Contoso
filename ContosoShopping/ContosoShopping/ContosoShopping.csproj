@@ -2,16 +2,13 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard1.4;net452</TargetFrameworks>
-    
     <PackageId>Contoso.Shopping</PackageId>
-    <Authors>Contoso Shopping Team</Authors>
+    <Version>1.0.5</Version>
+    <Authors>Contoso Shopping team</Authors>
     <Company>Contoso</Company>
-    <Product>Contoso</Product>
+    <Product>Contoso Shopping</Product>
     <Description>Contoso APIs</Description>
-    
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    
-    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.4'">
@@ -19,7 +16,7 @@
       <Version>2.0.5</Version>
     </PackageReference>
   </ItemGroup>
-
+  
   <ItemGroup Condition="'$(TargetFramework)' == 'net452'">
     <PackageReference Include="Contoso.Base">
       <Version>1.0.5</Version>

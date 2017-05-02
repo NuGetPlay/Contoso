@@ -7,8 +7,9 @@ namespace ContosoShopping
     {
         public static string GetVersion()
         {
-            return "Contoso Shopping 1.0.2 (NETStandard|net452)";
+            return "Contoso Shopping 1.0.5 (NETStandard)";
         }
+
         public static ShopCart GetShoppingCart(Guid userId)
         {
             ShopCart shopCart = new ShopCart(userId);
