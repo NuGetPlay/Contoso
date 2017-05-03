@@ -7,7 +7,7 @@ namespace ContosoShopping
     {
         public static string GetVersion()
         {
-            return "Contoso Shopping 1.0.0 (NETStandard)";
+            return "Contoso Shopping 1.1.1 (NETStandard)";
         }
 
         public static ShopCart GetShoppingCart(Guid userId)
@@ -15,6 +15,5 @@ namespace ContosoShopping
             ShopCart shopCart = new ShopCart(userId);
             return shopCart;
         }
-
     }
 }
