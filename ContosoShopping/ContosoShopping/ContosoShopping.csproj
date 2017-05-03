@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
     
-    <PackageId>Contoso.Shopping</PackageId>
+    <PackageId>Contoso.Shopping2</PackageId>
     <Version>1.1.0</Version>
     <Authors>Contoso Shopping team</Authors>
     <Company>Contoso</Company>
